@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: 'Inter';
+}
+p {
+    color: hsl(236, 13%, 42%);
+}
+div.header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+div ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 2em;
+    list-style: none;
+}
+div ul li a {
+    text-decoration: none;
+    color:black;
+    padding-left: 2em;
+    
+}
+div ul li a:hover {
+    color: #c05326;
+}
+div.main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+    width: 100%;
+    margin-right: 1em;
+}
+div.main h1 {
+    
+    font-size: 300%;
+}
+div.main div {
+    
+    font-size: 100%;
+    margin-left: 2em;
+}
+div.main div button {
+    background-color: hsl(5, 85%, 63%);
+    border-color: transparent;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: white;
+    
+    letter-spacing: 3px;
+    font-size: 95%;
+}
+div.main div button:hover {
+    background-color: hsl(240, 100%, 5%);
+    border-color: transparent;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: white;
+    
+    letter-spacing: 3px;
+    font-size: 95%;
+}
+div.content {
+    display: flex;
+    flex-direction: row;
+}
+div.sidebar {
+    background-color: hsl(240, 100%, 5%);
+    padding: 2em;
+    margin-left: 1em;
+    width: 50%;
+    height: 110%;
+}
+div.sidebar h2 {
+    color:  hsl(35, 77%, 62%);
+    
+    font-size: 250%;
+    padding-bottom: 1em; 
+}
+div.sidebar h3 {
+    
+    color: hsl(36, 100%, 99%);
+    font-size: 130%;
+    padding-top: 1em;
+}
+div.sidebar h3:hover {
+    
+    color: hsl(35, 77%, 62%);
+    font-size: 130%;
+    padding-top: 1em;
+}
+div.sidebar p {
+    
+    font-size: 100%;
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+div.sidebar p:nth-of-type(2) {
+    border-bottom: 2px solid hsl(236, 13%, 42%);
+}
+div.sidebar h3:nth-of-type(2) {
+    border-top: 2px solid hsl(236, 13%, 42%);
+}
+div.footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+    
+    margin-bottom: 3em;
+    width: 100%;
+}
+div.footer h4.number {
+    font-size: 200%;
+    color:hsl(233, 8%, 79%);
+    padding-bottom: 0.3em;
+}
+div.footer h5 {
+    padding-bottom: 0.7em;
+    font-weight: bold;
+    font-size: 110%;
+}
+div.footer h5:hover {
+    color: hsl(5, 85%, 63%);
+    padding-bottom: 0.7em;
+    font-weight: bold;
+    font-size: 110%;
+}
+div.footer img {
+    width: 8vw;
+    height: 15vh;
+}
+div.footer_content {
+    margin-left: 1.5em;
+}
